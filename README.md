@@ -26,7 +26,7 @@ console.log(toStripeFormat(number)); // 8675309
 
 ## International Currency Support
 
-Should support any currency shown by the node Intl package: [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
+Should support any currency available to the node Intl package: [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
 
 ### ES6 Example
 
