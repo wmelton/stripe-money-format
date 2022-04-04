@@ -18,7 +18,7 @@ console.log(toStripeFormat(number)); // 8675309
 ### CommonJS
 
 ```js
-const toStripeFormat = require("stripe-money-format");
+const {toStripeFormat} = require("stripe-money-format");
 
 const number = 86753.09;
 console.log(toStripeFormat(number)); // 8675309
