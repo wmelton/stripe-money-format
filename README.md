@@ -1,6 +1,6 @@
 # Stripe Money format
 
-A simple js function to format numbers to stripe's smallest common currency unit format
+A simple js utility to format numbers to Stripe's smallest common currency unit format
 
 Supports most International Curriences.
 
@@ -11,7 +11,7 @@ Supports most International Curriences.
 ```js
 import {toStripeFormat} from "stripe-money-format";
 
-const number = "86,753.09";
+const number = 86753.09;
 console.log(toStripeFormat(number)); // 8675309
 ```
 
@@ -20,7 +20,7 @@ console.log(toStripeFormat(number)); // 8675309
 ```js
 const toStripeFormat = require("stripe-money-format");
 
-const number = "86,753.09";
+const number = 86753.09;
 console.log(toStripeFormat(number)); // 8675309
 ```
 
@@ -33,7 +33,7 @@ Should support any currency shown by the node Intl package: [Intl.NumberFormat](
 ```js
 import {toStripeFormatCustomCurrency} from "stripe-money-format";
 
-const number = "123456.789";
+const number = 123456.789;
 const currency = "EUR";
 const language = "de-DE";
 
@@ -45,7 +45,7 @@ console.log(toStripeFormatCustomCurrency(currency, language, number)); // 123456
 ```js
 const {toStripeCustomCurrency} = require("stripe-money-format");
 
-const number = "123456.789";
+const number = 123456.789;
 const currency = "EUR";
 const language = "de-DE";
 
