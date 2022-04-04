@@ -1,3 +1,9 @@
+## <small>1.0.6 (2022-04-04)</small>
+
+* adding input type checks ([078dc29](https://github.com/wmelton/stripe-money-format/commit/078dc29))
+
+
+
 ## <small>1.0.5 (2022-04-04)</small>
 
 * fixing readme ([60122e7](https://github.com/wmelton/stripe-money-format/commit/60122e7))
