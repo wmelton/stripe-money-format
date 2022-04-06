@@ -1,3 +1,9 @@
+## <small>1.0.7 (2022-04-06)</small>
+
+* removing fsevents dependency ([f2f700c](https://github.com/wmelton/stripe-money-format/commit/f2f700c))
+
+
+
 ## <small>1.0.6 (2022-04-04)</small>
 
 * adding input type checks ([078dc29](https://github.com/wmelton/stripe-money-format/commit/078dc29))
