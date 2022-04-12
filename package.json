@@ -10,7 +10,7 @@
   },
   "name": "stripe-money-format",
   "description": "A simple utility to format numbers to stripe's smallest common currency unit format",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/stripe-money-format.cjs.js",
   "module": "dist/stripe-money-format.es.mjs",
   "jsnext:main": "dist/stripe-money-format.es.mjs",
