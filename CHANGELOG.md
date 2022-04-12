@@ -1,3 +1,8 @@
+## <small>1.0.8 (2022-04-12)</small>
+
+
+
+
 ## <small>1.0.7 (2022-04-06)</small>
 
 * removing fsevents dependency ([f2f700c](https://github.com/wmelton/stripe-money-format/commit/f2f700c))

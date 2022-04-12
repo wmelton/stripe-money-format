@@ -9,10 +9,10 @@ Supports most International Curriences.
 ### ES6
 
 ```js
-import {toStripeFormat} from "stripe-money-format";
+import StripeMoneyFormat from "stripe-money-format";
 
 const number = 86753.09;
-console.log(toStripeFormat(number)); // 8675309
+console.log(StripeMoneyFormat.toStripeFormat(number)); // 8675309
 ```
 
 ### CommonJS
@@ -31,7 +31,7 @@ Should support any currency available to the node Intl package: [Intl.NumberForm
 ### ES6 Example
 
 ```js
-import {toStripeFormatCustomCurrency} from "stripe-money-format";
+import StripeMoneyFormat from "stripe-money-format";
 
 const number = 123456.789;
 const currency = "EUR";
